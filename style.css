@@ -1,0 +1,106 @@
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Button Styles */
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transition: background-color 0.3s ease;
+}
+
+/* Accordion Style */
+.accordion {
+    background-color: #008CBA;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+/* Form Styles */
+form {
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    padding: 8px;
+    margin: 5px 0;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+    transition: background-color 0.3s ease;
+}
+
+/* Image Gallery */
+#gallery img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+    transition: transform 0.3s ease;
+}
+
+#gallery img:hover {
+    transform: scale(1.05);
+}

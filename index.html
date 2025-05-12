@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Playground</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Interactive Web Playground</h1>
+        
+        <!-- Button that changes text or color -->
+        <button id="changeColorBtn">Click me!</button>
+        
+        <!-- Image Gallery -->
+        <div id="gallery">
+            <img id="currentImage" src="image1.jpg" alt="Image 1">
+            <button id="nextBtn">Next Image</button>
+        </div>
+
+        <!-- Accordion Example -->
+        <button class="accordion">Section 1</button>
+        <div class="panel">
+            <p>Some content here</p>
+        </div>
+
+        <!-- Form Validation -->
+        <form>
+            <label for="name">Name (Required):</label>
+            <input type="text" id="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <br>
+            <label for="password">Password (min 8 characters):</label>
+            <input type="password" id="password" required>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
